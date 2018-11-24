@@ -1,0 +1,6 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 100,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Monokai",
+}
