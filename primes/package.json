@@ -1,0 +1,10 @@
+{
+  "name": "primes",
+  "private": true,
+  "scripts": {
+    "test": "jest src/test.js --watch"
+  },
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}
