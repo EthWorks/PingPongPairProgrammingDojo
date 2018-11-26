@@ -1,6 +1,25 @@
 const { solve } = require('./solution');
 
-it('works', () => {
+
+it('works for a single array', () => {
+  expect(solve(['*'])).toEqual(['*']);
+});
+
+it('works for a single array', () => {
+  expect(solve(['_'])).toEqual([0]);
+});
+
+it('works for a single array', () => {
+  expect(solve(['_', '*'])).toEqual([1, '*']);
+});
+
+it('works for a single array', () => {
+  expect(solve(['*', '_', '*'])).toEqual(['*', 2, '*']);
+});
+
+
+it('works for a single array', () => {
+  expect(solve(['_', '_'])).toEqual([0, 0]);
 });
 
 // check ===
