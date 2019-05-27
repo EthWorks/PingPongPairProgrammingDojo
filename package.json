@@ -2,9 +2,15 @@
   "name": "minesweeper",
   "private": true,
   "scripts": {
-    "test": "jest src/test.js --watch"
+    "test": "jest src/test.{js,ts} --watch"
   },
   "dependencies": {
-    "jest": "^23.6.0"
+    "@types/jest": "^24.0.13",
+    "jest": "^23.6.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "preset": "ts-jest/presets/js-with-ts"
   }
 }
