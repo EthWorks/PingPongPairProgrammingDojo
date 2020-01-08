@@ -5,10 +5,10 @@
     "test": "jest src/test.{js,ts} --watch"
   },
   "dependencies": {
-    "@types/jest": "^24.0.16",
-    "jest": "^24.8.0",
-    "ts-jest": "^24.0.2",
-    "typescript": "^3.5.3"
+    "@types/jest": "^24.0.25",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.4"
   },
   "jest": {
     "preset": "ts-jest/presets/js-with-ts"
